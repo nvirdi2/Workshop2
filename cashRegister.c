@@ -32,7 +32,7 @@ int main(void)
     printf("Loonies required: %d, balance owing $%.2lf\n",loonie, (double)(changereturnloonie)/100);
     printf("Quarters required: %d, balance owing $%.2lf\n",quarter, (double)(changereturnquarter)/100);
     printf("Dimes required: %d, balance owing $%.2lf\n",dime, (double)(changereturndime)/100);
-    printf("Nickles required: %d, balance owing $%.2lf\n",nickles, (double)(changereturnnickles)/100);
+    printf("Nickels required: %d, balance owing $%.2lf\n",nickles, (double)(changereturnnickles)/100);
     printf("Pennies required: %d, balance owing $%.2lf\n",pennies, changereturnpennies);
 
     return 0;
