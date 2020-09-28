@@ -29,7 +29,7 @@ int main(void)
 
     //prints the result of what the user owes 
     printf("Balance owing: $%.2lf\n", ((double)(coins)/100));
-    printf("Loonies required: %d, balance owing: $%.2lf\n",loonie, (double)(changereturnloonie)/100);
+    printf("Loonies required: %d, balance owing $%.2lf\n",loonie, (double)(changereturnloonie)/100);
     printf("Quarters required: %d, balance owing $%.2lf\n",quarter, (double)(changereturnquarter)/100);
     printf("Dimes required: %d, balance owing $%.2lf\n",dime, (double)(changereturndime)/100);
     printf("Nickles required: %d, balance owing $%.2lf\n",nickles, (double)(changereturnnickles)/100);
